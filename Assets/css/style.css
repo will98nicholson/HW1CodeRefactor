@@ -85,7 +85,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+//* elements with the "benefits" class assigned to it had the same color and margin assignments, so i condensed the css file by creating a new benefits1 class to each *//
 .benefits1 {
     margin-bottom: 32px;
     color: #ffffff;
@@ -95,7 +95,7 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
-
+//* all images under the benefits class had the same modifications, so I was able to create a single css command for all of them using a new class*//
 .benefits1 img {
     display: block;
     margin: 10px auto;
